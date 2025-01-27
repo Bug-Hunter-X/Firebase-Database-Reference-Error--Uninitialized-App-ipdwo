@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you attempt to access a database reference before it has fully initialized. This can occur if you try to perform a database operation within the `componentDidMount` lifecycle method of a React component before the Firebase app has had a chance to initialize completely.  This typically results in a null or undefined reference error. 
